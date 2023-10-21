@@ -1,5 +1,6 @@
 # Recurrent Transformer
-This repository contains the codes to reproduce the experiments for the submission "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformers".
+This repository contains the codes to reproduce the experiments for the submission [Learning to Solve Constraint Satisfaction Problems with Recurrent Transformers](https://openreview.net/pdf?id=udNhDCr2KQe).
+[Lab Page](https://azreasoners.github.io/ARG-webpage/)
 
 ## Datasets bigger than 100MB or from existing repositories
 Please download the following dataset files from the given link and put to the given destination.
@@ -110,3 +111,18 @@ python main.py --game_size 15 --gpu 1
 
 ## Acknowledgements
 The GPT implementation is from Andrej Karpathy's [minGPT](https://github.com/karpathy/minGPT) repo. Note that we replaced the causal self-attention in GPT model with typical self-attention by setting `causal_mask=False` whenever it is used. In this way, logical variable X_i is able to pay attention to another logical variable X_j when j>i.
+
+
+## Citation
+Please cite our paper as:
+```
+@inproceedings{
+yang2023learning,
+title={Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer},
+author={Zhun Yang and Adam Ishay and Joohyung Lee},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=udNhDCr2KQe}
+}
+
+
