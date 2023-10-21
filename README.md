@@ -1,5 +1,5 @@
 # Recurrent Transformer
-This repository contains the codes to reproduce the experiments for the submission [Learning to Solve Constraint Satisfaction Problems with Recurrent Transformers](https://openreview.net/pdf?id=udNhDCr2KQe).
+This repository contains the codes to reproduce the experiments for the submission [Learning to Solve Constraint Satisfaction Problems with Recurrent Transformers](https://openreview.net/pdf?id=udNhDCr2KQe).  
 [Lab Page](https://azreasoners.github.io/ARG-webpage/)
 
 ## Datasets bigger than 100MB or from existing repositories
